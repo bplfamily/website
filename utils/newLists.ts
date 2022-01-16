@@ -121,15 +121,13 @@ export const marketPlaces = [
 
 export const resources = [
   {
-    name: "Inspired By Loot",
+    name: "",
     description: "",
     project: [
       nProject,
       treasure,
       dopeWars,
-      adventureCards,
-      cryptoodleLoot,
-      bannersNft
+      adventureCards
     ],
   }
 ];
@@ -138,25 +136,12 @@ export const build = [
 
 
   {
-    name: "Developer Tools",
+    name: "",
     description: "",
     project: [
       lootSubgraph,
       lootRarity,
       lootSdk,
-      lootComponents,
-      lootJs
-
-    ],
-  },
-  {
-    name: "Visulizations & Sounds",
-    description: "",
-    project: [
-      inventory,
-      lootBooklet,
-      pixelGenerator,
-      lootSound
     ],
   },
 ];

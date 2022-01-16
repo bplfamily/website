@@ -14,7 +14,7 @@ const inventory: Project = {
 };
 
 const lootSubgraph: Project = {
-    name: "Loot Subgraph",
+    name: "Adebayo",
     description: "Loot bag, owner, and transfer subgraph by @shahruz",
     whatToDo: [
         {
@@ -27,7 +27,7 @@ const lootSubgraph: Project = {
     },
 };
 const lootRarity: Project = {
-    name: "Loot Rarity",
+    name: "Suadey",
     description: " Loot attributes and rarities sheet by @AustinGreen",
     whatToDo: [
         {
@@ -40,7 +40,7 @@ const lootRarity: Project = {
     },
 };
 const lootSdk: Project = {
-    name: "Loot SDK",
+    name: "Mama Baoy",
     description: "TypeScript wrapper to loot subgraph by @shahruz",
     whatToDo: [
         {

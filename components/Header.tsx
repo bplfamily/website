@@ -70,8 +70,8 @@ export function Header(props: NavProps) {
                                     className={[styles.header__links_active, 'cursor-pointer  font-body'].join(' ')}
                                     onClick={disconnectWallet}
                                 >
-                                    [ disconnect ]
                   </a>
+                                    [ disconnect ]
                             </span>
                         )}
                         {!isConnected && (

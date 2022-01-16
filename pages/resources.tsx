@@ -37,15 +37,8 @@ export default function Resources(): ReactElement {
   return (
     <Layout>
       <div className="bg-black py-20">
+                    <h1 className="text-center mt-4">Roadmap</h1>
         <div className="container mx-auto mt-8">
-          <div className="flex justify-around">
-            <div className="px-4 sm:px-20 py-8 rounded-2xl text-center md:w-2/3 shadow-xl ">
-              <h1 className="text-center mt-4">Resources</h1>
-              <div className="flex justify-around py-4">
-                <a target="_blank" className="text-2xl flex bg-gray-900 rounded p-4 hover:bg-gray-700" href="https://airtable.com/shrn5mCzrtzH67Ztf">Submit a Project</a>
-              </div>
-            </div>
-          </div>
           {resources.map(({ name, description, project }, i) => {
             return (
               <CardRow key={i} name={name} description={description} project={project} />
@@ -53,33 +46,7 @@ export default function Resources(): ReactElement {
           })}
         </div>
       </div>
-      <div className="container mx-auto my-10 flex justify-around">
-        <div className="sm:w-1/2 p-3">        {resourcesIndex.map(({ title, description, list }, i) => {
-          return (
-            <div className="my-10" key={i} >
-              <h2>{title}</h2>
-              <p className="text-2xl text-gray-400 mb-6">{description}</p>
-
-              <ul className="text-lg">
-                {list.map(({ name, description, url }, i) => {
-                  // For each resource, render link and description
-                  return (
-                    <li key={i}>
-                      <p className="my-3 text-xl">
-                        <a className="font-semibold hover:underline" href={url} target="_blank" rel="noopener noreferrer">
-                          {name}
-                        </a>
-                        {" "} <span className="text-gray-400">&mdash; {description}</span>
-                      </p>
-                    </li>
-                  );
-                })}
-              </ul>
-            </div>
-          );
-        })}</div>
-
-      </div>
+     
 
     </Layout>
 
