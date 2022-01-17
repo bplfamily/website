@@ -15,41 +15,41 @@ const inventory: Project = {
 
 const lootSubgraph: Project = {
     name: "Adebayo",
-    description: "Loot bag, owner, and transfer subgraph by @shahruz",
+    description: "GIS Analyst and a Researcher living in the Vienna. Digital Marketer. Content Writer. Handeling media, marketings and promotions.",
     whatToDo: [
         {
-            content: "subgraph",
-            url: "https://thegraph.com/hosted-service/subgraph/shahruz/loot"
+            content: "Twitter Handle",
+            url: "https://twitter.com/Quadadey"
         },
     ],
-    github: {
-        url: "https://github.com/scotato/inventory"
+    twitter: {
+        url: "https://twitter.com/Quadadey"
     },
 };
 const lootRarity: Project = {
     name: "Suadey",
-    description: " Loot attributes and rarities sheet by @AustinGreen",
+    description: "Web Designer and Developer. Programmer. Researcher. Graphics Designer. ML Enthusiast. Manager @ Suadey Global Services.",
     whatToDo: [
         {
-            content: "Google sheet",
-            url: "https://docs.google.com/spreadsheets/d/1Al0Yi-tM7K_05pCKjkQtSJjwbV2jMfac1i_oC4j2EYI/edit#gid=1666761696"
+            content: "LikedIn",
+            url: "https://www.linkedin.com/in/suadey/"
         },
     ],
-    github: {
-        url: "https://github.com/scotato/inventory"
+    twitter: {
+        url: "https://twitter.com/Mr_Suadey"
     },
 };
 const lootSdk: Project = {
-    name: "Mama Baoy",
-    description: "TypeScript wrapper to loot subgraph by @shahruz",
+    name: "Brianna",
+    description: "Designer and community building. Experience with the community building in Solana ecosystem projects.",
     whatToDo: [
         {
-            content: "Repo",
-            url: "https://github.com/divinerobes/loot-sdk"
+            content: "Team Repo",
+            url: "https://github.com/The1501Project"
         },
     ],
     github: {
-        url: "https://github.com/divinerobes/loot-sdk"
+        url: "https://github.com/The1501Project"
     },
 };
 const lootJs: Project = {
