@@ -8,6 +8,7 @@ import Opensea from "../img/opensea.svg"
 import Twitter from "../img/twitter.svg";
 import ExchangeIcon from "../img/exchangeIcon2.svg";
 import Discord from "../img/discord.svg";
+import Telegram from "../img/telegram.svg";
 // Types
 import type { ReactElement } from "react";
 
@@ -25,21 +26,21 @@ The 1501 Project is a randomized collection from the famous speech "I Have a Dre
             <div>
               <div className="flex py-8 w-full justify-center space-x-6">
                 <a
-                  href="https://opensea.io/collection/lootproject"
+                  href="https://twitter.com/The1501Project"
                   className="self-center p-3 border border-gray-800 rounded-xl  bg-black hover:bg-gray-600"
                   target="_blank"
                 >
                   <Opensea className=" hover:text-gray-200  w-6 h-6 mx-2" />
                 </a>
                 <a
-                  href="https://twitter.com/lootproject"
+                  href="https://twitter.com/The1501Project"
                   className="self-center p-3 border border-gray-800 rounded-xl  bg-black hover:bg-gray-600"
                   target="_blank"
                 >
                   <Twitter className="fill-current  text-white w-6 h-6 mx-2" />
                 </a>
                 <a
-                  href="https://discord.gg/KuYyKXam9G"
+                  href="https://twitter.com/The1501Project"
                   className="self-center p-3 border border-gray-800 rounded-xl  bg-black hover:bg-gray-600"
                   target="_blank"
                 >
