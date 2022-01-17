@@ -18,7 +18,7 @@ export default function FAQ(): ReactElement {
           <h3>What is 1501?</h3>
           <p>
             
-The 1501 Project is a randomized collection from the famous speech "I Have a Dream" by Martin Luther King Jr. 
+The 1501 Project is a randomized collection from the famous speech "I Have a Dream" by Martin Luther King Jr.  
             <a
               href="https://twitter.com/dhof/status/1431316631934967815"
               target="_blank"
@@ -36,7 +36,7 @@ The 1501 Project is a randomized collection from the famous speech "I Have a Dre
         <div className="my-8">
           <h3>What is the total supply of the project?</h3>
           <p>
-           1501 Nfts
+           1501 NFTs.
           </p>
         </div>
 
@@ -44,7 +44,7 @@ The 1501 Project is a randomized collection from the famous speech "I Have a Dre
         <div className="my-8">
           <h3>How do I buy myself a 1501?</h3>
           <p>
-           The project launch is on 17th Jan on the day of the MLKJ birthday celebration. 
+           The project launch is on 17th Jan, on MLKJ's birthday. The minting date is to be announced soon.
           </p>
         </div>
 
@@ -52,7 +52,7 @@ The 1501 Project is a randomized collection from the famous speech "I Have a Dre
 <div className="my-8">
           <h3>What Solana wallets can I use?</h3>
           <p>
-   We recommend using Phantom wallet. But you will be able to use Phantom, Sollet or Solflare.
+   We recommend using the Phantom wallet. But you will be able to use Phantom, Sollet, or Solflare.
           </p>
         </div>
 
@@ -61,7 +61,7 @@ The 1501 Project is a randomized collection from the famous speech "I Have a Dre
           <h3>How to check the rarity of my 1501?</h3>
           <p>
 
-We will release the rarity ranking and a rarity tools to figure out the rarities.  
+We will release the rarity tool shortly after the launch.  
 
      </p>
         </div>
@@ -70,7 +70,7 @@ We will release the rarity ranking and a rarity tools to figure out the rarities
         <div className="my-8">
           <h3>Is there an aftermarket sales royalty?</h3>
           <p>
-            Yes. There is a 5% royalties on each sale to support the project long term and provide a free launchpad platform to young artists! The royalties division is as follows
+            Yes. There is a 5% royalties on each sale to support the project long-term and provide a free launchpad platform to young artists! The royalties division is as follows
 
           </p>
           <p>
