@@ -68,8 +68,8 @@ export default function Home(): ReactElement {
                         </div>
                     </div>
                 </div>
-                <p style={{'page-break-after': 'always'}}>&nbsp;</p>
-                <p style={{'page-break-before': 'always'}}>&nbsp;</p>
+                <p style={{pageBreakAfter: 'always'}}>&nbsp;</p>
+                <p style={{pageBreakBefore: 'always'}}>&nbsp;</p>
             </div>
         </div>
 
