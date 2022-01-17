@@ -73,33 +73,45 @@ export default function Home(): ReactElement {
             </div>
         </div>
 
-
-
-      <div id="start" className="bg-black  sm:py-20 py-10 pb-40 ">
-        <div className="container mx-auto mt-8">
-          <div className="flex justify-around">
-            <div id="auction" className="px-4 sm:px-20 py-8 rounded-2xl text-center md:w-2/3 ">
-              <span className="uppercase sm:text-xl tracking-widest text-gray-400">Auction</span>
-              <h1 className="text-center mt-4 capitalize">Now is the time</h1>
-              <p className="text-xl sm:text-2xl text-gray-400">A total of 1501 NFTs, earned by believers in Freedom. Doxxed team and devs. Mint proceeds and royalties go towards social causes and promoting black art in the Solana NFT ecosystem.</p>
-              <br/>
-              <p className="text-xl sm:text-3xl text-gray-400">Initial set is going up for auction on Holaplex.</p>
-              <p className="text-xl sm:text-3xl text-gray-400"><b>January 17th.</b></p>
+        <div id="start" className="bg-black  sm:py-20 py-10 pb-40 ">
+            <div className="container mx-auto mt-8">
+                <div className="flex justify-around">
+                    <div id="auction" className="px-4 sm:px-20 py-8 rounded-2xl text-center md:w-2/3 ">
+                        <span className="uppercase sm:text-xl tracking-widest text-gray-400">Auction</span>
+                        <h1 className="text-center mt-4 capitalize">Now is the time</h1>
+                        <p className="text-xl sm:text-2xl text-gray-400">Support us by buying our genesis set. Doxxed team and devs. For the Black community, by the Black community. Mint proceeds go towards launching the project.</p>
+                        <br/>
+                        <p className="text-xl sm:text-3xl text-gray-400">Initial set is going up for auction on Holaplex.</p>
+                        <p className="text-xl sm:text-3xl text-gray-400"><b>January 17th.</b></p>
+                    </div>
+                </div>
+                {onlyLoot.map(({ name, description, project }, i) => {
+                    return (
+                        <CardRow key={i} name={name} description={description} project={project} />
+                    );
+                })}
+                <p style={{pageBreakAfter: 'always'}}>&nbsp;</p>
+                <p style={{pageBreakBefore: 'always'}}>&nbsp;</p>
             </div>
-          </div>
-          {onlyLoot.map(({ name, description, project }, i) => {
-            return (
-              <CardRow key={i} name={name} description={description} project={project} />
-            );
-          })}
-          {whatToGet.map(({ name, description, project }, i) => {
-            return (
-              <CardRow key={i} name={name} description={description} project={project} />
-            );
-          })}
         </div>
-      </div>
 
+        <div id="start_2" className="bg-black sm:py-20 py-10 pb-40 ">
+            <div className="container mx-auto mt-8">
+                <div className="flex justify-around">
+                    <div id="mint" className="px-4 sm:px-20 py-8 rounded-2xl text-center md:w-2/3 ">
+                        <span className="uppercase sm:text-xl tracking-widest text-gray-400">Public Mint</span>
+                        <h1 className="text-center mt-4 capitalize">Mint Opening Soon!</h1>
+                        <p className="text-xl sm:text-2xl text-gray-400">A total of 1501 NFTs, earned by believers in Freedom. Three sets of cards, three ways to show your support. Mint proceeds and royalties go towards social causes and promoting black art in the Solana NFT ecosystem.</p>
+                        <br/>
+                    </div>
+                </div>
+                {whatToGet.map(({ name, description, project }, i) => {
+                    return (
+                        <CardRow key={i} name={name} description={description} project={project} />
+                    );
+                })}
+            </div>
+        </div>
 
     </Layout>
   );
