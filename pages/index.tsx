@@ -59,8 +59,8 @@ The 1501 Project is a randomized collection from the famous speech "I Have a Dre
         <div className="container mx-auto mt-8">
           <div className="flex justify-around">
             <div className="px-4 sm:px-20 py-8 rounded-2xl text-center md:w-2/3 ">
-              <span className="uppercase sm:text-xl tracking-widest text-gray-400">Now is the time</span>
-              <h1 className="text-center mt-4 capitalize">Project Description</h1>
+              <span className="uppercase sm:text-xl tracking-widest text-gray-400">Project Description</span>
+              <h1 className="text-center mt-4 capitalize">Now is the time</h1>
               <p className="text-xl sm:text-2xl text-gray-400">A total of 1501 collection of 1501 NFTs, earned by the beliveres in Freedom. Doxxed team. Mint proceeds and royalties go towards social causes and promoting black art in Solana NFTs</p>
             </div>
           </div>
