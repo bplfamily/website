@@ -80,11 +80,10 @@ export function Card(props: CardProps) {
                     {project.whatToDo && (
                         <div className="flex gap-5 rounded pt-5 mt-auto">
                             <div className="flex flex-wrap w-full">
-                                {project.whatToDo.map(({ content, url, component }, i) => {
-                                    // if (component) return component;
+                                {project.whatToDo.map(({ content, url, noBlank }, i) => {
                                     return (
                                         <a
-                                            target="_blank"
+                                            target={noBlank? "" : "_blank"}
                                             href={url as string}
                                             key={i}
                                             className="bg-gray-800 hover:bg-gray-600 py-2 rounded-xl px-5 my-1 text-lg  text-gray-200 border border-gray-700 w-full text-center"

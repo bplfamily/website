@@ -16,7 +16,7 @@ export function CardRow(props: CardDetails): ReactElement {
 
   return (
     <div ref={cardRef} className="my-10 sm:my-20">
-      <div className="text-center px-4">
+      <div className="text-center px-4 z-10">
         <h2>{props.name}</h2>
         <p className="sm:text-2xl mb-4">{props.description}</p>
       </div>

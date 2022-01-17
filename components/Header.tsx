@@ -24,7 +24,7 @@ export function Header(props: NavProps) {
     // All links
 
     return (
-        <div className="w-full flex justify-between py-2 bg-black px-4 bg-opacity-90">
+        <div className="w-full flex justify-between py-2 bg-black px-4 bg-opacity-90 fixed z-50">
             {/* Main logo */}
             <div className={styles.header__logo}>
                 <Link href="/">

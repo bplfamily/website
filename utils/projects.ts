@@ -1,16 +1,15 @@
 import { Project } from "../types/interface";
 
-
 export const auction: Project = {
     name: "Pre-Mint Auction",
-    description: "Deterministically generated 15/1501 special preminted collection will be availble for the auction on the MLK's Day on Monday 17th Jan 2022.",
+    description: "A set of 15 out of 1501 specially generated and deterministic pre-mint collection available for auction on Martin Luther King Jr's Day on January 17th 2022.",
     whatToDo: [
         {
             content: "Buy on Holaplex.com",
-            url: "https://www.Holaplex.com/"
+            url: "https://www.holaplex.com/"
         },
     ],
-    image: "/lootheader.jpeg",
+    image: "/images/cards/auction.jpeg",
     nameClasses: "text-[black] text-3xl"
 };
 
@@ -21,16 +20,13 @@ export const mintClassic: Project = {
     whatToDo: [
         {
             content: "Mint Classic 1501",
-            url: 'https://the1501project.com/'
+            url: '#mint',
+            noBlank: true,
         },
-        // {
-        //   content: "View your sLoot",
-        //   component: <SyntheticLoot />
-        // }
     ],
 
 
-    image: "/syntheticheader.png"
+    image: "/syntheticheader.png",
 };
 
 export const mintSignature: Project = {
@@ -40,7 +36,8 @@ export const mintSignature: Project = {
     whatToDo: [
         {
             content: "Mint Signature 1501",
-            url: "https://the1501project.com/"
+            url: "#mint",
+            noBlank: true,
         }
     ],
 
@@ -53,7 +50,8 @@ export const mintPremium: Project = {
     whatToDo: [
         {
             content: "Mint Premium 1501",
-            url: "https://the1501project.com/"
+            url: "#mint",
+            noBlank: true,
         }
     ],
 

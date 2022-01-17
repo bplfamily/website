@@ -17,7 +17,7 @@ import type { ReactElement } from "react";
 export default function Home(): ReactElement {
   return (
     <Layout>
-        <div className="px-10 sm:px-20 text-center py-10 sm:py-20 justify-around flex flex-wrap hero-img bg-opacity-10">
+        <div className="px-10 sm:px-20 text-center py-10 sm:py-20 h-screen justify-around flex flex-wrap hero-img bg-opacity-10">
             <div className="w-full sm:w-1/2">
                 <div className="sm:px-4">
                     <h1 className="header-project">The 1501 Project</h1>
@@ -70,12 +70,10 @@ export default function Home(): ReactElement {
                         </div>
                     </div>
                 </div>
-                <p style={{pageBreakAfter: 'always'}}>&nbsp;</p>
-                <p style={{pageBreakBefore: 'always'}}>&nbsp;</p>
             </div>
         </div>
 
-        <div id="start" className="bg-black  sm:py-20 py-10 pb-40 ">
+        <div id="start" className="bg-black-800 sm:py-20 py-10 pb-40 ">
             <div className="container mx-auto mt-8">
                 <div className="flex justify-around">
                     <div id="auction" className="px-4 sm:px-20 py-8 rounded-2xl text-center md:w-2/3 ">

@@ -27,6 +27,7 @@ interface Content {
     content?: String,
     url?: String
     component?: JSX.Element;
+    noBlank?: Boolean;
 }
 
 interface Price {
