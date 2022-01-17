@@ -3,17 +3,18 @@ import React, { ReactElement } from 'react';
 
 export function Footer(): ReactElement {
     return (
-        <div className={styles.footer}>
-            <p>
+        <div className="py-[20px] text-center text-[#838383]">
+            <p className="text-xl">
                 © The 1501 Project, 2022{" "}
+            </p>
+            <p className="text-xs">
                 <a
                     href="https://github.com/lootproject/website"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-         
+                    Website Design by Loot
                 </a>
-               
             </p>
         </div>
     );

@@ -2,8 +2,10 @@
 import Link from "next/link"; // Routing
 import { useRouter } from "next/router"; // Routing
 import Layout from "@components/Layout"; // Layout wrapper
+
 import { CardRow } from "@components/Row";
-import { whatToGet, whatToDo, getAfterLoot, getYourCharacter, onlyLoot } from "../utils/newLists"
+import { auctionList, mintList} from "../utils/cardLists"
+
 import Twitter from "../img/twitter.svg";
 import ExchangeIcon from "../img/exchangeIcon2.svg";
 import Discord from "../img/discord.svg";
@@ -85,7 +87,7 @@ export default function Home(): ReactElement {
                         <p className="text-xl sm:text-3xl text-gray-400"><b>January 17th.</b></p>
                     </div>
                 </div>
-                {onlyLoot.map(({ name, description, project }, i) => {
+                {auctionList.map(({ name, description, project }, i) => {
                     return (
                         <CardRow key={i} name={name} description={description} project={project} />
                     );
@@ -101,11 +103,19 @@ export default function Home(): ReactElement {
                     <div id="mint" className="px-4 sm:px-20 py-8 rounded-2xl text-center md:w-2/3 ">
                         <span className="uppercase sm:text-xl tracking-widest text-gray-400">Public Mint</span>
                         <h1 className="text-center mt-4 capitalize">Mint Opening Soon!</h1>
-                        <p className="text-xl sm:text-2xl text-gray-400">A total of 1501 NFTs, earned by believers in Freedom. Three sets of cards, three ways to show your support. Mint proceeds and royalties go towards social causes and promoting black art in the Solana NFT ecosystem.</p>
+                        <p className="text-xl sm:text-2xl text-gray-400">A total
+                        of 1501 NFTs, earned by believers in Freedom. Three sets
+                        of cards:<> </>
+                            <span className="uppercase text-2xl text-[white]">Classic</span><>, </>
+                            <span className="uppercase text-2xl text-[salmon]">Signature</span><>, and </>
+                            <span className="uppercase text-2xl text-[gold]">Premium</span>.
+                            Three ways to show your support. Mint proceeds and
+                            royalties go towards social causes and promoting
+                            black art in the Solana NFT ecosystem.</p>
                         <br/>
                     </div>
                 </div>
-                {whatToGet.map(({ name, description, project }, i) => {
+                {mintList.map(({ name, description, project }, i) => {
                     return (
                         <CardRow key={i} name={name} description={description} project={project} />
                     );
