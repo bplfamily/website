@@ -127,7 +127,9 @@ export const resources = [
       nProject,
       treasure,
       dopeWars,
-      adventureCards
+      adventureCards,
+     cryptoodleLoot,
+     bannersNft
     ],
   }
 ];

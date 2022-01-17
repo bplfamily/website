@@ -2,94 +2,54 @@ import SyntheticLoot from "@components/SyntheticLoot";
 import { Project } from "../types/interface";
 const loot: Project = {
   name: "Loot (for Adventurers)",
-  description: "The original 8,000 OG Loot bags. ",
+  description: "Deterministically generated 15/1501 special preminted collection will be availble for the auction on the MLK's Day on Monday 17th Jan 2022.",
   whatToDo: [
     {
-      content: "Trade on Loot.exchange",
-      url: "https://www.loot.exchange/"
+      content: "Buy on Holaplex.com",
+      url: "https://www.Holaplex.com/"
     },
-    {
-      content: "Trade on OpenSea",
-      url: "https://opensea.io/collection/lootproject"
-    }
-
   ],
-  contract: {
-    content: "0xff9c1b15b16263c61d017ee9f65c50e4ae0113d7",
-    url: "https://etherscan.io/"
-  },
-  twitter: {
-    url: "https://twitter.com/lootproject"
-  },
-  discord: {
-    url: "https://discord.com/invite/23gbrJ6pje"
-  },
-  opensea: {
-    url: "https://opensea.io/collection/lootproject"
-  },
-  image: "/lootheader.svg"
+  
+  image: "/lootheader.jpeg"
 };
 
 const mLoot: Project = {
-  name: "More Loot",
+  name: "With Signature",
   description:
-    "1.5 million bags of More Loot (or \"mLoot\"), with ~250,000 more available per year. They are free to claim.",
+    "300 out of 1501 are with the signatures in addtion to the words.",
   whatToDo: [
     {
-      content: "Mint an mLoot Bag",
-      url: "https://etherscan.io/address/0x1dfe7ca09e99d10835bf73044a23b73fc20623df#writeContract"
+      content: "Mint a 1501",
+      url: "https://the1501project.com/"
     }
   ],
-  contract: {
-    content: "0x1dfe7Ca09e99d10835Bf73044a23B73Fc20623DF",
-    url: "https://etherscan.io/"
-  },
-  twitter: {
-    url: "https://twitter.com/dhof/status/1434180216444923923?lang=en"
-  },
-  discord: {
-    url: "https://discord.com/invite/23gbrJ6pje"
-  },
-  opensea: {
-    url: "https://opensea.io/collection/more-loot"
-  },
-  image: "/mlootheader.svg"
+  
+  image: "/mlootheader.png"
 };
 
 const sLoot: Project = {
-  name: "Synthetic Loot",
+  name: "Randomised Words",
   description:
-    "Loot bags for everyone, free and tied to your Ethereum address. There are 2^256 Synthloot bags.",
+    "A randomised collection of 7 words, chosen from the famous speech #IHaveADream of Martin Luther King Junior",
   whatToDo: [
     {
-      content: "View your sLoot",
-      url: 'https://loot.stephancill.co.za/#/'
+      content: "Mint a 1501",
+      url: 'https://the1501project.com/'
     },
     // {
     //   content: "View your sLoot",
     //   component: <SyntheticLoot />
     // }
   ],
-  contract: {
-    content: "0x869ad3dfb0f9acb9094ba85228008981be6dbdde",
-    url: "https://etherscan.io/"
-  },
-  twitter: {
-    url: "https://twitter.com/lootproject"
-  },
-  discord: {
-    url: "https://discord.com/invite/23gbrJ6pje"
-  },
-  opensea: {
-    url: "https://opensea.io/collection/lootproject"
-  },
-  image: "/syntheticheader.svg"
+ 
+ 
+  image: "/syntheticheader.png"
 };
 
 const realms: Project = {
   name: "Realms",
   heading: "Settle a Realm",
-  description: "8000 Procedurally generated Realms for Adventurers to explore. 16 orders rule 500 Realms each. Prepare for the wars to come.",
+  description: "1000 of the 1501 are pure text with back background.",
   whatToDo: [
     {
       content: "Trade",
@@ -172,7 +132,7 @@ const bibliotheca: Project = {
 const genesisMana: Project = {
   name: "Genesis Project",
   heading: "Distill Genesis Mana with your Loot bag.",
-  description: "All bags with items 'of' Orders have free Genesis Mana inside them. Collect a perfect set of 8 Genesis Mana in order to resurrect a Genesis Adventurer and receive its “Genesis Loot” bag. ",
+  description: "All bags with items 'of' Orders have free Genesis Mana inside them. Collect a perfect set of 8 Genesis Mana in order to resurrect a Genesis Adventurer and receive its “” bag. ",
   whatToDo: [
     {
       content: "Distill Genesis Mana",
@@ -397,41 +357,17 @@ const stakeARealm: Project = {
 };
 
 const genesisAdventurer: Project = {
-  name: "Genesis Loot",
-  description: "The 2,540 bags of Genesis Loot were carried by the original 'Genesis Adventurers.' Through teamwork and collaboration, players resurrect Genesis Adventurers to protect and champion their ancestral Orders.",
+  name: "Genesis 1501",
+  description: "201/1501 are with the signature and MLKJ picture.",
   whatToDo: [
     {
-      content: "Resurrect a Genesis Adventurer",
-      url: "https://genesisproject.notion.site/"
-    },
-    {
-      content: "Trade on OS",
-      url: "https://opensea.io/collection/genesisadventurer"
-    },
+      content: "Mint a 1501",
+      url: "https://the1501project.com/"
+    }
   ],
-  website: {
-    url: "https://genesisproject.xyz/"
-  },
-  contract: {
-    content: "0x8db687aceb92c66f013e1d614137238cc698fedb"
-  },
-  twitter: {
-    url: "https://twitter.com/genesisloot"
-  },
-  discord: {
-    url: "https://discord.gg/YUYyPSuwfU"
-  },
-  opensea: {
-    url: "https://opensea.io/collection/genesisadventurer"
-  },
-  github: {
-    url: "https://github.com/genesisproject4loot/genesisadventurer"
-  },
-  image: "/genesis.svg",
+  
+  image: "/genesis.png",
   neededProject: genesisMana,
-  mintPrice: {
-    mint: 0.25
-  }
 };
 const lootMartAssemble: Project = {
   name: "Equip a Warrior (coming soon)",

@@ -1,65 +1,30 @@
 import { Project } from "../types/interface";
 
 const bannersNft: Project = {
-    name: "Banners (for Adventures)",
-    description: "Banners is 25000 text only NFTs that serve as society before the Great War. A Banner is a key to future graphic airdrops and projects built in the Exodus epoch.",
+    name: "B-DAO",
+    description: "Access to each 1501 will give you governance to the DAO.",
     whatToDo: [
         {
-            content: "Site",
-            url: "https://bannersnft.com/"
-        },
-        {
-            content: "Coming Soon",
-            url: "https://opensea.io/BannersNFT"
+            content: "DAO",
+            url: "https://the1501project.com/"
         },
     ],
-    website: {
-        url: "https://bannersnft.com/"
-    },
-    twitter: {
-        url: "https://twitter.com/BannersNft"
-    },
-    discord: {
-        url: "https://discord.gg/MYxGU7rjY4"
-    },
     github: {
-        url: "https://github.com/farque65/BannersNFT"
+        url: "https://github.com/The1501Project"
     }
 };
 
 const cryptoodleLoot: Project = {
-    name: "Toodle Loot Bag",
+    name: "Token and NFT Staking",
     description:
-        "10,000 programmable Loot Bags engineered by Cryptoodles used to advance the technology of civilizations.",
+        "Launh our own $FREEDOM token and create utility to allow the staking of NFTs to earn.",
     whatToDo: [
-        {
-            content: "Claim Free BAG",
-            url: "https://docs.cryptoodles.com/toodl-nfts/redeeming-loot-bag-nfts"
+    {
+            content: "Token and Staking",
+            url: "https://the1501project.com/"
         },
-        {
-            content: "Trade",
-            url: "https://opensea.io/collection/toodle-loot-bag"
-        }
-
     ],
-    website: {
-        url: "https://cryptoodles.com"
-    },
-    twitter: {
-        url: "https://twitter.com/cryptoodles"
-    },
-    discord: {
-        url: "https://discord.com/invite/g9SnvzdFs2"
-    },
-    opensea: {
-        url: "https://opensea.io/collection/toodle-loot-bag"
-    },
-    contract: {
-        content: "0x2a16107ea0d28ae822168c8bb3ef5460b1924a78"
-    },
-    github: {
-        url: "https://github.com/cryptoodles"
-    }
+   
 };
 
 const nProject: Project = {
@@ -68,7 +33,7 @@ const nProject: Project = {
     whatToDo: [
         {
             content: "Beginning",
-            url: "https://opensea.io/collection/n-project"
+            url: "https://the1501project.com/"
         },
     ]
 };
@@ -79,7 +44,7 @@ const treasure: Project = {
     whatToDo: [
         {
             content: "Listing",
-            url: "https://opensea.io/collection/treasure-for-loot"
+            url: "https://the1501project.com/"
         },
     ],
 };
@@ -89,7 +54,7 @@ const dopeWars: Project = {
     whatToDo: [
         {
             content: "Donating",
-            url: "https://opensea.io/collection/dope-v4"
+            url: "https://the1501project.com/"
         },
     ],
     
@@ -97,11 +62,11 @@ const dopeWars: Project = {
 
 const adventureCards: Project = {
     name: "NFT Launches on Solana",
-    description: "We will invest 30% of our revenue to provide the infrastructure for any artist to launch it's own collectible art on Solana. The service will be completely Free of charge and welcoming to all artists across the globe.",
+    description: "We will invest 30% of our revenue to provide the infrastructure for any artist to launch it's own collectible art on Solana.",
     whatToDo: [
         {
             content: "Launchpad",
-            url: "https://opensea.io/collection/adventure-cards"
+            url: "https://the1501project.com/"
         },
     ],
 };

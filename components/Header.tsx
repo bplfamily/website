@@ -66,16 +66,12 @@ export function Header(props: NavProps) {
                         {isConnected && (
                             <span>
                                 {displayName} {" "}
-                                <a
-                                    className={[styles.header__links_active, 'cursor-pointer  font-body'].join(' ')}
-                                    onClick={disconnectWallet}
-                                >
-                  </a>
+                               
                                     [ disconnect ]
                             </span>
                         )}
                         {!isConnected && (
-                            <button className={[styles.header__button, 'cursor-pointer  font-body'].join(' ')} onClick={connectWallet}>
+                            <button className={[styles.header__button, 'cursor-pointer  font-body'].join(' ')} >
                                 Mint 1501 NFT
                             </button>
                         )}

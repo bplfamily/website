@@ -8,6 +8,7 @@ import Opensea from "../img/opensea.svg"
 import Twitter from "../img/twitter.svg";
 import ExchangeIcon from "../img/exchangeIcon2.svg";
 import Discord from "../img/discord.svg";
+import Telegram from "../img/telegram.svg";
 // Types
 import type { ReactElement } from "react";
 
@@ -25,21 +26,21 @@ The 1501 Project is a randomized collection from the famous speech "I Have a Dre
             <div>
               <div className="flex py-8 w-full justify-center space-x-6">
                 <a
-                  href="https://opensea.io/collection/lootproject"
+                  href="https://twitter.com/The1501Project"
                   className="self-center p-3 border border-gray-800 rounded-xl  bg-black hover:bg-gray-600"
                   target="_blank"
                 >
                   <Opensea className=" hover:text-gray-200  w-6 h-6 mx-2" />
                 </a>
                 <a
-                  href="https://twitter.com/lootproject"
+                  href="https://twitter.com/The1501Project"
                   className="self-center p-3 border border-gray-800 rounded-xl  bg-black hover:bg-gray-600"
                   target="_blank"
                 >
                   <Twitter className="fill-current  text-white w-6 h-6 mx-2" />
                 </a>
                 <a
-                  href="https://discord.gg/KuYyKXam9G"
+                  href="https://twitter.com/The1501Project"
                   className="self-center p-3 border border-gray-800 rounded-xl  bg-black hover:bg-gray-600"
                   target="_blank"
                 >
@@ -58,9 +59,9 @@ The 1501 Project is a randomized collection from the famous speech "I Have a Dre
         <div className="container mx-auto mt-8">
           <div className="flex justify-around">
             <div className="px-4 sm:px-20 py-8 rounded-2xl text-center md:w-2/3 ">
-              <span className="uppercase sm:text-xl tracking-widest text-gray-400">The Quest begins here</span>
+              <span className="uppercase sm:text-xl tracking-widest text-gray-400">Project Description</span>
               <h1 className="text-center mt-4 capitalize">Now is the time</h1>
-              <p className="text-xl sm:text-2xl text-gray-400">A total of 1501 collection of 1501 NFTs, earned by the beliveres in Freedom. Where did they come from? What stories do they hold? Collect a bag, learn its story, and begin your adventure. </p>
+              <p className="text-xl sm:text-2xl text-gray-400">A total of 1501 collection of 1501 NFTs, earned by the beliveres in Freedom. Doxxed team. Mint proceeds and royalties go towards social causes and promoting black art in Solana NFTs</p>
             </div>
           </div>
           {onlyLoot.map(({ name, description, project }, i) => {
