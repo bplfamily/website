@@ -76,12 +76,12 @@ export const roadmapList = [
         name: "",
         description: "",
         project: [
-            roadmap_1,
-            roadmap_2,
             roadmap_3,
             roadmap_4,
             roadmap_5,
-            roadmap_6,
+             roadmap_6,
+             roadmap_2,
+            roadmap_1,
         ],
     },
 ];
