@@ -7,7 +7,7 @@ export const headerLinks: Array<Links> = [
     },
     {
         name: "Roadmap",
-        path: "/resources",
+        path: "/roadmap",
     },
     {
         name: "FAQ",
@@ -15,6 +15,6 @@ export const headerLinks: Array<Links> = [
     },
     {
         name: "Team",
-        path: "/build"
+        path: "/team"
     },
 ];

@@ -23,7 +23,7 @@ import {
   lootAlliance,
   divineDao,
   fLoot
-} from "./projects"
+} from "./old_projects"
 
 import {
   inventory,
