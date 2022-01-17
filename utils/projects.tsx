@@ -2,7 +2,7 @@ import SyntheticLoot from "@components/SyntheticLoot";
 import { Project } from "../types/interface";
 const loot: Project = {
   name: "Loot (for Adventurers)",
-  description: "Best 15 preminted collection",
+  description: "Deterministically generated 15/1501 special preminted collection will be availble for the auction on the MLK's Day on Monday 17th Jan 2022.",
   whatToDo: [
     {
       content: "Buy on Holaplex.com",
@@ -16,7 +16,7 @@ const loot: Project = {
 const mLoot: Project = {
   name: "With Signature",
   description:
-    "300 out of 1501 are with the signatures.",
+    "300 out of 1501 are with the signatures in addtion to the words.",
   whatToDo: [
     {
       content: "Mint a 1501",
@@ -30,7 +30,7 @@ const mLoot: Project = {
 const sLoot: Project = {
   name: "Randomised Words",
   description:
-    "A randomised collection of 7 words chosen from the MLKJ sppech #IHaveADream",
+    "A randomised collection of 7 words, chosen from the famous speech #IHaveADream of Martin Luther King Junior",
   whatToDo: [
     {
       content: "Mint a 1501",
@@ -49,7 +49,7 @@ const sLoot: Project = {
 const realms: Project = {
   name: "Realms",
   heading: "Settle a Realm",
-  description: "1000 of the 1501 are pure text with back blcakground.",
+  description: "1000 of the 1501 are pure text with back background.",
   whatToDo: [
     {
       content: "Trade",
@@ -358,7 +358,7 @@ const stakeARealm: Project = {
 
 const genesisAdventurer: Project = {
   name: "Genesis 1501",
-  description: "201 are with the signature and MLKJ picture.",
+  description: "201/1501 are with the signature and MLKJ picture.",
   whatToDo: [
     {
       content: "Mint a 1501",
