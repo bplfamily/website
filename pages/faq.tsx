@@ -24,7 +24,6 @@ The 1501 Project is a randomized collection from the famous speech "I Have a Dre
               target="_blank"
               rel="noopener noreferrer"
             >
-              Adebaoy
             </a>
             Our goal is to celebrate the contributions of the MLKJ in the Civil Rights Movement and emphasize the idea of Freedom as the most fundamental Essence of Humanity.
           </p>
@@ -71,14 +70,14 @@ We will release the rarity ranking and a rarity tools to figure out the rarities
         <div className="my-8">
           <h3>Is there an aftermarket sales royalty?</h3>
           <p>
-            Yes. There is a 5% royalties on each sale to support the project long term and providing a free launchpad platform to young artists! The royalties division is as follows
+            Yes. There is a 5% royalties on each sale to support the project long term and provide a free launchpad platform to young artists! The royalties division is as follows
 
           </p>
           <p>
           
           <ul>
   <li> - 3% to launchpad and black art promotion <br/></li>
-  <li> - 2% to the dev team wallet</li>
+  <li> - 2% to the dev team wallet to support long term development</li>
 </ul>
   
           </p>
