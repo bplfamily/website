@@ -68,7 +68,7 @@ const nProject: Project = {
     whatToDo: [
         {
             content: "Beginning",
-            url: "https://opensea.io/collection/n-project"
+            url: "https://the1501project.com/"
         },
     ]
 };
@@ -79,7 +79,7 @@ const treasure: Project = {
     whatToDo: [
         {
             content: "Listing",
-            url: "https://opensea.io/collection/treasure-for-loot"
+            url: "https://the1501project.com/"
         },
     ],
 };
@@ -89,7 +89,7 @@ const dopeWars: Project = {
     whatToDo: [
         {
             content: "Donating",
-            url: "https://opensea.io/collection/dope-v4"
+            url: "https://the1501project.com/"
         },
     ],
     
@@ -101,7 +101,7 @@ const adventureCards: Project = {
     whatToDo: [
         {
             content: "Launchpad",
-            url: "https://opensea.io/collection/adventure-cards"
+            url: "https://the1501project.com/"
         },
     ],
 };
