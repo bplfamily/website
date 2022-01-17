@@ -6,7 +6,7 @@ const loot: Project = {
   whatToDo: [
     {
       content: "Buy on Holaplex.com",
-      url: "https://www.loot.exchange/"
+      url: "https://www.Holaplex.com/"
     },
   ],
   
@@ -20,7 +20,7 @@ const mLoot: Project = {
   whatToDo: [
     {
       content: "Mint a 1501",
-      url: "https://etherscan.io/address/0x1dfe7ca09e99d10835bf73044a23b73fc20623df#writeContract"
+      url: "https://the1501project.com/"
     }
   ],
   
@@ -34,7 +34,7 @@ const sLoot: Project = {
   whatToDo: [
     {
       content: "Mint a 1501",
-      url: 'https://loot.stephancill.co.za/#/'
+      url: 'https://the1501project.com/'
     },
     // {
     //   content: "View your sLoot",
@@ -362,7 +362,7 @@ const genesisAdventurer: Project = {
   whatToDo: [
     {
       content: "Mint a 1501",
-      url: "https://etherscan.io/address/0x1dfe7ca09e99d10835bf73044a23b73fc20623df#writeContract"
+      url: "https://the1501project.com/"
     }
   ],
   
