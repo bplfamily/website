@@ -76,8 +76,8 @@ We will release the rarity tool shortly after the launch.
           <p>
           
           <ul>
-  <li> - 3% to launchpad and black art promotion <br/></li>
-  <li> - 2% to the dev team wallet to support long term development</li>
+  <li> - 3% to launchpad and black art promotion. <br/></li>
+  <li> - 2% to the dev team wallet to support long term development.</li>
 </ul>
   
           </p>
