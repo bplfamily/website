@@ -1,14 +1,14 @@
 // Header
 .header {
   max-width: 800px;
-  margin: 0px auto;
+  margin: 5px auto;
   padding: 15px 20px;
 
   // Alignment
   display: flex;
   justify-content: space-between;
   -webkit-box-pack: justify;
-  align-items: center;
+  align-items: left;
 
   > div {
     width: auto;
