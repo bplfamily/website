@@ -16,7 +16,7 @@ export const auction: Project = {
 export const mintClassic: Project = {
     name: "Classic",
     description:
-    "A randomised collection of 7 words, chosen from the famous speech #IHaveADream of Martin Luther King Junior",
+    "A randomized collection of 4-7 words chosen from MLKJ's iconic speech: \"I Have A Dream\". Total supply 1200.",
     whatToDo: [
         {
             content: "Mint Classic 1501",
@@ -30,7 +30,7 @@ export const mintClassic: Project = {
 export const mintSignature: Project = {
     name: "Signature",
     description:
-    "300 out of 1501 are with the signatures in addtion to the words.",
+    "The Signature Edition contains MLKJ's signature in addition to the Classic Edition, with 5-7 words and lightly edited by hand. Total supply 200.",
     whatToDo: [
         {
             content: "Mint Signature 1501",
@@ -43,7 +43,7 @@ export const mintSignature: Project = {
 
 export const mintPremium: Project = {
     name: "Premium",
-    description: "201/1501 are with the signature and MLKJ picture.",
+    description: "The Premium Edition are hand-crafted and have a supply of only 101. Thank you for supporting the project and our vision!",
     whatToDo: [
         {
             content: "Mint Premium 1501",
