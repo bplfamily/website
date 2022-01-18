@@ -13,7 +13,7 @@ export function Footer(): ReactElement {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Website Design by Loot
+                    Website Design Credit to Loot
                 </a>
             </p>
         </div>

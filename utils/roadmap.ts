@@ -2,7 +2,7 @@ import { Project } from "../types/interface";
 
 const roadmap_1: Project = {
     name: "B-DAO",
-    description: "Access to each 1501 will give you governance to the DAO.",
+    description: "Access to each 1501 will give you a governance to the DAO.",
     whatToDo: [
         {
             content: "DAO",
@@ -17,7 +17,7 @@ const roadmap_1: Project = {
 const roadmap_2: Project = {
     name: "Token and NFT Staking",
     description:
-        "Launh our own $FREEDOM token and create utility to allow the staking of NFTs to earn.",
+        "Launch our own $FREEDOM token and create a utility to allow the staking of NFTs to earn.",
     whatToDo: [
     {
             content: "Token and Staking",
@@ -40,7 +40,7 @@ const roadmap_3: Project = {
 
 const roadmap_4: Project = {
     name: "Secondary Markets",
-    description: "We are in contact with two marketplaces, Magic Eden and Solport nft marketplace. ",
+    description: "We are in contact with two marketplaces, Magic Eden and Solport NFT marketplace. ",
     whatToDo: [
         {
             content: "Listing",
@@ -62,7 +62,7 @@ const roadmap_5: Project = {
 
 const roadmap_6: Project = {
     name: "NFT Launches on Solana",
-    description: "We will invest 30% of our revenue to provide the infrastructure for any artist to launch it's own collectible art on Solana.",
+    description: "We will invest 30% of our revenue to provide the infrastructure for any artist to launch its collectible art on the Solana Blockchain.",
     whatToDo: [
         {
             content: "Launchpad",
@@ -76,12 +76,12 @@ export const roadmapList = [
         name: "",
         description: "",
         project: [
-            roadmap_1,
-            roadmap_2,
             roadmap_3,
             roadmap_4,
             roadmap_5,
-            roadmap_6,
+             roadmap_6,
+             roadmap_2,
+            roadmap_1,
         ],
     },
 ];
