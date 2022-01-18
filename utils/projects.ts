@@ -24,9 +24,7 @@ export const mintClassic: Project = {
             noBlank: true,
         },
     ],
-
-
-    image: "/syntheticheader.png",
+    image: "/images/cards/mintClassic.png",
 };
 
 export const mintSignature: Project = {
@@ -40,8 +38,7 @@ export const mintSignature: Project = {
             noBlank: true,
         }
     ],
-
-    image: "/mlootheader.png"
+    image: "/images/cards/mintSignature.png",
 };
 
 export const mintPremium: Project = {
@@ -54,6 +51,5 @@ export const mintPremium: Project = {
             noBlank: true,
         }
     ],
-
-    image: "/genesis.png",
+    image: "/images/cards/mintPremium.png",
 };

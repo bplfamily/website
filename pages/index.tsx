@@ -17,10 +17,10 @@ import type { ReactElement } from "react";
 export default function Home(): ReactElement {
   return (
     <Layout>
-        <div className="px-10 sm:px-20 text-center py-10 sm:py-20 h-screen justify-around flex flex-wrap hero-img bg-opacity-10">
+        <div className="px-10 sm:px-20 text-center py-10 sm:py-20 h-screen justify-around flex flex-wrap hero-img bg-opacity-10 items-center">
             <div className="w-full sm:w-1/2">
-                <div className="sm:px-4">
-                    <h1 className="header-project">The 1501 Project</h1>
+                <div className="mt-auto sm:px-4">
+                    <h1 className="font-project">The 1501 Project</h1>
 
                     <p className="text-xl sm:text-2xl text-gray-300">
                         A randomized collection of 1501 NFTs from the famous speech "I

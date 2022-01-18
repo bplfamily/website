@@ -26,18 +26,19 @@ export function Card(props: CardProps) {
         <div
             className={project.name == "Pre-Mint Auction" ? loot : all}
         >
-            <div className="bg-gray-900 rounded-3xl shadow-sm  my-3 transform hover:-translate-y-2 hover:border-gray-600 duration-150 mx-3 h-full flex flex-col border-2 border-gray-800">
+            <div className="bg-gray-900 rounded-3xl shadow-sm my-3 transform hover:-translate-y-2 hover:border-gray-600 duration-150 mx-3 h-full flex flex-col border-2 border-gray-800">
                 {project.image && (
-                    <div className="sm:h-96">
+                    <div className="sm:h-full bg-black rounded-t-3xl">
                         <img
                             src={project.image as string}
                             className=
-                        "transition delay-300 duration-700 rounded-t-3xl object-cover object-bottom sm:h-96 w-full"
+                        "transition delay-300 duration-700 rounded-t-3xl sm:h-full block h-full m-auto"
 
                         />
                     </div>
 
                 )}
+        <div className="border border-gray-800/50"></div>
                 <div className="p-6 sm:p-8 flex flex-col h-full">
                     <div className={divClassName}>
                         {project.heading ? (
@@ -81,16 +82,25 @@ export function Card(props: CardProps) {
                         <div className="flex gap-5 rounded pt-5 mt-auto">
                             <div className="flex flex-wrap w-full">
                                 {project.whatToDo.map(({ content, url, noBlank }, i) => {
-                                    return (
-                                        <a
-                                            target={noBlank? "" : "_blank"}
-                                            href={url as string}
-                                            key={i}
-                                            className="bg-gray-800 hover:bg-gray-600 py-2 rounded-xl px-5 my-1 text-lg  text-gray-200 border border-gray-700 w-full text-center"
-                                        >
+                                    if (url) {
+                                        return (<a
+                                                    target={noBlank? "" : "_blank"}
+                                                    href={url as string}
+                                                    key={i}
+                                                    className="bg-gray-800 hover:bg-gray-600 py-2 rounded-xl px-5 my-1 text-lg  text-gray-200 border border-gray-700 w-full text-center"
+                                                >
                                             {content}
                                         </a>
-                                    );
+                                        )
+                                    } else {
+                                        return (<p
+                                            key={i}
+                                            className="bg-gray-800 hover:bg-gray-600 py-2 rounded-xl px-5 my-1 text-lg  text-gray-200 border border-gray-700 w-full text-center"
+                                            >
+                                            {content}
+                                        </p>
+                                        )
+                                    }
                                 })}
                             </div>
                         </div>

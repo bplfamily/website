@@ -28,7 +28,7 @@ export function Header(props: NavProps) {
             {/* Main logo */}
             <div className={styles.header__logo}>
                 <Link href="/">
-                    <a><h2>1501</h2></a>
+                    <a><p className="font-project">1501</p></a>
                 </Link>
             </div>
 
